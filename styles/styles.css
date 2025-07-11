@@ -1,0 +1,50 @@
+/* header-section */
+.background-img{
+    background-image: url('../Assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 60px;
+    color: #111;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #4F46E5;
+}
+.signup-button{
+    background-color: #4F46E5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.UI-template{
+    text-align: center;
+    margin-top: 100px;
+}
+.UI-template h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #111;
+}
+.focus-button {
+      margin-top: 30px;
+      background-color: #4F46E5;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
