@@ -130,6 +130,41 @@ body{
       color: #666;
       
     }
-     .footer-nav-title a:hover {
+    .footer-nav-title a:hover {
       color: #4F46E5;
      }
+     /* Productive Users Section  */
+     .Productive-Section {
+      background-color: #e8e8ff;
+      border-radius: 16px;
+      margin: 60px auto;
+      max-width: 1000px;
+      padding: 40px 20px;
+      text-align: center;
+    }
+     .Productive-Section h2 {
+      font-size: 24px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 40px;
+    }
+    .Users-grid{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+     .Users-item {
+      flex: 1 1 200px;
+    }
+    .Users-item h3 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #5c4dff;
+      margin: 0;
+    }
+    .Users-item p {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #666;
+    }
