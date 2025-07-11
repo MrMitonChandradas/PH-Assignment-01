@@ -1,4 +1,9 @@
 /* header-section */
+body{
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7f9fc;
+}
 .background-img{
     background-image: url('../Assets/Hero-bg.png');
     background-size: cover;
@@ -48,6 +53,51 @@
       font-weight: bold;
       cursor: pointer;
     }
+
+    /* main section */
+    /* Action */
+    .action-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 10%;
+      background-color: #f7f9fc;
+      flex-wrap: wrap;
+    }
+     .action-txt {
+      max-width: 480px;
+    }
+    .action-txt h2 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 16px;
+    }
+    .action-txt p {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 24px;
+    }
+    .action-txt button {
+      padding: 12px 20px;
+      background-color: #5c4dff;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+     .action-img img {
+      max-width: 400px;
+      width: 100%;
+      border-radius: 24px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+     .action-txt {
+        margin-bottom: 30px;
+      }
+      
+
 /* footer section */
  footer {
       background-color: #f9f9f9;
